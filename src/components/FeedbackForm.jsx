@@ -44,7 +44,6 @@ function FeedbackForm() {
         text,
         rating,
       };
-      console.log(feedbackEdit);
       if (feedbackEdit.edit) {
         updateFeedback(feedbackEdit.id, text, rating);
       } else {
