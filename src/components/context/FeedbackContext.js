@@ -15,6 +15,11 @@ export const FeedbackProvider = ({ children }) => {
       text: "This is dummy text 2",
       rating: 3,
     },
+    {
+      id: 3,
+      text: "This is dummy text 3",
+      rating: 5,
+    },
   ]);
 
   // D E L E T E   F E E D B A C K.

@@ -9,6 +9,8 @@ function FeedbackStats() {
       return acc + curr.rating;
     }, 0) / feedback.length;
 
+    // console.log(avgRating);
+
   return (
     <div className="feedback-stats">
       <h4>{feedback.length} Reviews</h4>
